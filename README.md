@@ -10,4 +10,4 @@ The site can be deployed using the S2I builder by running:
 oc new-app getwarped/s2i-httpd-server~https://github.com/getwarped/httpd-site-maintenance.git --name site-maintenance
 ```
 
-Any route for a service which is to under going maintenance can then be switched to ``site-maintenance`` service for the period of the maintenance.
+Any route for a service which is under going maintenance can then be switched to ``site-maintenance`` service for the period of the maintenance.
